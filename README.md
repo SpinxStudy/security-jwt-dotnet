@@ -71,7 +71,7 @@ O diagrama abaixo ilustra o fluxo de autentica??o JWT entre as duas APIs:
 
 ### Executando as APIs
 
-? importante executar ambas as APIs simultaneamente, pois a TransactionAPI depende da PaymentAPI.
+иж importante executar ambas as APIs simultaneamente, pois a TransactionAPI depende da PaymentAPI.
 
 **PaymentAPI** - Execute em um terminal:
 ```
