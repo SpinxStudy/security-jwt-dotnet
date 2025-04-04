@@ -27,7 +27,7 @@ public class PaymentService : IPaymentService
             DestinationAccountId = transactionRequest.DestinationAccountId
         };
 
-        var response = await _httpClient.PostAsJsonAsync("/api/payments/process", paymentRequest);
+        var response = await _httpClient.PostAsJsonAsync("/api/payment/process", paymentRequest);
         response.EnsureSuccessStatusCode();
 
         return await response.Content.ReadFromJsonAsync<object>();
