@@ -49,7 +49,7 @@ O diagrama abaixo ilustra o fluxo de autenticação JWT entre as duas APIs:
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/seu-usuario/security-jwt-dotnet.git
+   git clone https://github.com/SpinxStudy/security-jwt-dotnet.git
    cd security-jwt-dotnet
    ```
 
@@ -127,7 +127,7 @@ Para testar o fluxo completo, você precisa criar uma transação na Transaction
         ```
     - Request header prefix: Bearer
 
-- ![Visao Completa do Postman](images/complete-test-postman.png)
+![Visao Completa do Postman](images/complete-test-postman.png)
 
 
 A TransactionAPI gerará automaticamente um token JWT para autenticar-se na PaymentAPI.
