@@ -41,6 +41,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Just important thing, the order matter in this case
+// The correct way is to use the UseHttpsRedirection first to make the security protocol available to the application
+// after that UseAuthentication before UseAuthorization to certified that app ever have the user authentication and your roles
+// and, more importantly, MapControllers after configuring all these things to make sure that this application is configured correctly
+// with Authentication and Authorization on all your endpoints.
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
