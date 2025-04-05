@@ -166,3 +166,6 @@ Se tudo ocorrer deve ser gerada uma saida similar:
   - AWS Secrets Manager ou similar para armazenar chaves
   - Períodos de expiração mais curtos para os tokens
   - HTTPS para todas as comunicações
+ 
+## Melhorias Futuras
+- Criar um servico de gerenciamento de tokens / autenticacoes
